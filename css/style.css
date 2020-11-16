@@ -1,0 +1,195 @@
+body{
+    width: 512px;
+    margin: auto;
+}
+.bar-menu{
+    background-color: #824192;
+    padding: 10px 20px 10px 20px;
+}
+.sous {
+    display: none;
+}
+.sous1{
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 20px;
+    background-color: #824192 ;
+    position: absolute;
+    margin-left: 351px;
+    font-size: 25px;
+    z-index: 1;
+}
+.carousel{
+    width: 350px;
+}
+.banner{
+     background-color: #57066B;
+     height:200px;
+ }
+ .aboutme{
+     width: 240px;
+     font-size: 18px;
+     margin-left: 5px;
+     text-align: center;
+ }
+main{
+    background-color: #E4D4E4;
+    
+}
+.article{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 90px;
+    position: relative;
+    margin-top: 70px;
+}
+.article img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.passion{
+    position: absolute;   
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: 20px;
+    
+}
+.titre1 a{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 90px;
+    font-size: 23px;
+    text-decoration: none;
+    color: #57066B;
+}
+.infor{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.publish{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 300px;
+}
+
+footer{
+    background-color: #824192;
+}
+ li{
+    list-style: none;
+    padding: 10px;
+}
+.social{
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+h6 {
+    margin-left: 120px;
+    color: white;
+}
+.sous a{
+    text-decoration: none;
+    color: white
+}
+
+ /* ----------------- */
+
+ 
+ .flex{
+     display: flex;
+ }
+ .justify{
+     justify-content: space-between;
+ }
+ .align{
+     align-items: center;
+ }
+ .direction{
+     flex-direction: column;
+ }
+ .width{
+     width: 150px;
+ }
+ .height{
+     height: 90px;
+ }
+ .padding{
+     padding: 70px;
+ }
+ .text{
+    font-size: 30px;
+}
+.white{
+    color: white;
+}
+
+ /* -----------------kitchen, book, travel page ------------------ */
+ .background{
+     background-repeat: no-repeat;
+     background-size: 100%;
+     height:200px;
+ }
+ .kitchen{
+    background-image: url("../img/img11.jpeg");
+ }
+ .travel {
+    background-image: url("../img/img13.jpg");
+ }
+ .book{
+    background-image: url("../img/img10.jpg");
+ }
+ h1{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+ .maincontent{
+    background-color: #E4D4E4;
+    position: relative;
+    height: 600px;
+}
+ article {
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ h2{
+     text-align: center;
+     color: #57066B;
+ }
+ .date{
+     position: absolute;
+     margin-left: 250px;
+     font-size: 12px;
+ }
+.content{
+    position: absolute;
+     margin-left: 10px;
+     font-size: 15px;
+     margin-top: 200px;
+}
+.picture{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+    width : 300px;
+    height: 150px;
+}
+.tip ul {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 240px;
+}
+.tip ul li{
+    list-style: inside;
+    padding : 1px;
+}
