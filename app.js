@@ -10,6 +10,7 @@ console.log(sous);
 // on appliquer confortement de class "sous1" dans CSS sur HTML quand on click icon "menu"
 menu. addEventListener ("click", () => {
     sous.classList.toggle('sous1');
+
 });
 
 // ------------------------------------ Srcoll reveal ----------------------- 

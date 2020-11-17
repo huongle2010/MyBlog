@@ -3,9 +3,19 @@ body{
     margin: auto;
 }
 .bar-menu{
-    background-color: #824192;
+    background-color: #824192 ;
     padding: 10px 20px 10px 20px;
+    height: 50px;
 }
+.carousel{
+    width: 350px;
+    margin-top: 50px;
+}
+.banner{
+     background-color: #57066B;
+     height:300px;
+     
+ }
 .sous {
     display: none;
 }
@@ -14,18 +24,13 @@ body{
     flex-direction: column;
     padding-inline-start: 20px;
     background-color: #824192 ;
-    position: absolute;
     margin-left: 439px;
     font-size: 25px;
     z-index: 1;
+    margin-top: 50px;
+    position: fixed;
 }
-.carousel{
-    width: 350px;
-}
-.banner{
-     background-color: #57066B;
-     height:200px;
- }
+
  .aboutme{
      width: 240px;
      font-size: 18px;
@@ -53,7 +58,6 @@ main{
     margin-top: 50px;
     margin-left: 180px;
     font-size: 20px;
-    
 }
 .titre1 a{
     position: absolute;
@@ -97,8 +101,6 @@ h6 {
 }
 
  /* ----------------- */
-
- 
  .flex{
      display: flex;
  }
@@ -129,12 +131,22 @@ h6 {
 .margin-bottom{
     margin-bottom: 50px;
 }
+.fixed-top{
+    position: fixed;
+    margin: auto;
+    width: 600px;
+    z-index: 1;
+}
+.margin-top{
+    margin-top: 0px;
+}
 
  /* -----------------kitchen, book, travel page ------------------ */
  .background{
      background-repeat: no-repeat;
      background-size: 100%;
-     height:200px;
+     height:250px;
+     margin-top: 50px;
  }
  .kitchen{
     background-image: url("../img/img11.jpeg");
@@ -149,7 +161,7 @@ h6 {
     color: white;
     position: absolute;
     margin-top: 80px;
-    margin-left: 150px;
+    margin-left: 200px;
 }
  .maincontent{
     background-color: #E4D4E4;
