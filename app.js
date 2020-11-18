@@ -19,5 +19,13 @@ const sr=ScrollReveal( {
  });
  ScrollReveal().reveal( '.article',{
     delay : 500});
+
+// ------------------------------------modal open----------------------- 
+
+$(window).on('load',function(){
+    $('#myModal').modal('show');
+});
+
+    
  
 

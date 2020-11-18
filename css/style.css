@@ -1,6 +1,7 @@
 body{
     width: 600px;
     margin: auto;
+    
 }
 .bar-menu{
     background-color: #824192 ;
@@ -14,7 +15,6 @@ body{
 .banner{
      background-color: #57066B;
      height:300px;
-     
  }
 .sous {
     display: none;
@@ -30,7 +30,6 @@ body{
     margin-top: 50px;
     position: fixed;
 }
-
  .aboutme{
      width: 240px;
      font-size: 18px;
@@ -78,7 +77,6 @@ main{
     margin-top: 270px;
     margin-left: 350px;
 }
-
 footer{
     background-color: #824192;
 }
@@ -99,6 +97,12 @@ h6 {
     text-decoration: none;
     color: white
 }
+.modal-body p {
+    text-align: center;
+    color: #824192;
+    font-size: 20px;
+}
+
 
  /* ----------------- */
  .flex{
